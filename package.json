@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "learn mongo",
   "main": "index.js",
+  "engines":{
+    "node":"10.14.2",
+    "npm":"6.4.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",

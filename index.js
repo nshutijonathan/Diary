@@ -17,6 +17,8 @@ mongoose
 	console.log("mongo db connected");
 })
 .catch(err=>console.log(err));
+//load routes
+app.use("/api/users",require("./routes/users"));
 
 //setup port 
 const port=process.env.PORT ||3000;
